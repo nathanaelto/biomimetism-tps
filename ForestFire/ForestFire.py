@@ -83,9 +83,9 @@ class ForestFire:
                            (x + 0, y - 1), (x + 0, y + 1),
                            (x + 1, y - 1), (x + 1, y + 0), (x + 1, y + 1)]
         count = 0
-        for x, y in neighbour_cells:
+        for px, py in neighbour_cells:
             try:
-                if self.grid[x][y] == self.fire:
+                if self.grid[px][py] == self.fire:
                     count += 1
             except:
                 pass
