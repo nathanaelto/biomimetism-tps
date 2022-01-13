@@ -14,3 +14,11 @@ Le Forest Fire est un automate cellulaire.
 Commande pour lancer le programme : <br>
 >`cd ForestFire` <br>
 >`[chemin vers votre python | python] main.py`
+
+
+---
+####TP2 : Mandelbrot:
+
+Commande pour lancer le programme : <br>
+>`cd ForestFire` <br>
+>`[chemin vers votre python | python] Mandelbrot.py`
