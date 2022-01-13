@@ -7,7 +7,7 @@ Repo pour enregistrer et partager mes TPs sur le biomimétisme dans le cadre de 
 Langage utilisé : python
 
 ---
-####TP1 : Forest Fire:
+#### TP1 : Forest Fire:
 
 Le Forest Fire est un automate cellulaire.
 
@@ -17,7 +17,7 @@ Commande pour lancer le programme : <br>
 
 
 ---
-####TP2 : Mandelbrot:
+#### TP2 : Mandelbrot:
 
 Commande pour lancer le programme : <br>
 >`cd ForestFire` <br>
