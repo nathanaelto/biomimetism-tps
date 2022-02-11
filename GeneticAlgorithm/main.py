@@ -1,4 +1,5 @@
 from random import randrange
+
 from Individu import Individu
 
 # Possible value : 0, 25, 50, 75, 100
@@ -18,7 +19,7 @@ MAX_CYCLE = 10_000
 
 
 def random_populate(size):
-    return [Individu(random_genetic_code()) for i in range(size)]
+    return [Individu(random_genetic_code()) for _ in range(size)]
 
 
 def selection_by_rank(population, immunised_genetic_code):
@@ -34,7 +35,6 @@ def create_growing_genetic_code(parent_1, parent_2):
 
 
 def run_genetic_genetic():
-
     IMMUNATED_GENETIC_CODE = random_genetic_code()
     POPULATION = random_populate(SIZE)
 
@@ -66,8 +66,6 @@ def run_genetic_genetic():
 
             POPULATION.append(Individu(create_growing_genetic_code(POPULATION[parent_1], POPULATION[parent_2])))
 
-
-
         # mutation
         POPULATION[randrange(len(POPULATION))].mutation()
 
@@ -85,4 +83,3 @@ def run_genetic_genetic():
 
 if __name__ == "__main__":
     run_genetic_genetic()
-
